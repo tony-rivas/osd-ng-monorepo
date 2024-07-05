@@ -56,7 +56,8 @@
           "buildTarget": "home:build:production"
         },
         "development": {
-          "buildTarget": "home:build:development"
+          "buildTarget": "home:build:development",
+          "port": 4300
         }
       },
       "defaultConfiguration": "development"

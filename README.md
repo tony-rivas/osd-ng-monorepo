@@ -38,7 +38,18 @@ npx nx run-many -t <target1> <target2>
 npx nx run-many -t <target1> <target2> -p <proj1> <proj2>
 ```
 
+Running e2e in parallel seems to not be working locally due to port overriding
+
+```
+npx nx run-many -t <target1> <target2> --parallel=false --skip-nx-cache
+# ex: npx nx run-many -t e2e --parallel=false --skip-nx-cache
+```
+
 Targets can be defined in the `package.json` or `projects.json`. Learn more [in the docs](https://nx.dev/features/run-tasks).
+
+## Misc
+
+After adding a port the app project.json serving section, may need to re-run npm install for changes to take effect.
 
 ## Set up CI!
 

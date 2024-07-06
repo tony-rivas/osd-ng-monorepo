@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'home',
+  displayName: 'one-stop',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/home',
+  coverageDirectory: '../../coverage/apps/one-stop',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

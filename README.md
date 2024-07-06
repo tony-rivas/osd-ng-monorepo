@@ -12,11 +12,11 @@ comes with a LSP for Vim users.
 
 ## Start the application
 
-Run `npx nx serve home` to start the development server. Happy coding!
+Run `npx nx serve one-stop` to start the development server. Happy coding!
 
 ## Build for production
 
-Run `npx nx build home` to build the application. The build artifacts are stored in the output directory (e.g. `dist/` or `build/`), ready to be deployed.
+Run `npx nx build one-stop` to build the application. The build artifacts are stored in the output directory (e.g. `dist/` or `build/`), ready to be deployed.
 
 ## Running tasks
 
@@ -30,6 +30,7 @@ You can also run multiple targets:
 
 ```
 npx nx run-many -t <target1> <target2>
+# ex: npx nx run-many -t test lint e2e --skip-nx-cache
 ```
 
 ..or add `-p` to filter specific projects

@@ -8,10 +8,14 @@ import { CommonModule } from '@angular/common';
   template: `<h1>Welcome Admin Users</h1>
     <ul>
       <li>
-        <a target="" href="http://localhost:4300">Local: Go to OSD Home</a>
+        <a rel="noopener noreferrer" target="" href="http://localhost:4300"
+          >Local: Go to OSD Home</a
+        >
       </li>
       <li>
-        <a target="" href="http://www.onestopdesk.top">Prod: Go to OSD Home</a>
+        <a rel="noopener noreferrer" target="" href="http://www.onestopdesk.top"
+          >Prod: Go to OSD Home</a
+        >
       </li>
     </ul> `,
   styles: [],

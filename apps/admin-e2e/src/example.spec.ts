@@ -5,4 +5,10 @@ test('has title', async ({ page }) => {
 
   // Expect h1 to contain a substring.
   expect(await page.locator('h1').innerText()).toContain('Welcome Admin Users');
+  // Expect document title
+  expect(await page.locator('head > title').innerText()).toContain(
+    'Admin • OSD'
+  );
+  // Expect a redirect
+  expect(page.url()).toContain('/admin');
 });

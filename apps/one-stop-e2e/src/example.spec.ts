@@ -7,4 +7,8 @@ test('has title', async ({ page }) => {
   expect(await page.locator('h1').innerText()).toContain(
     'Welcome to One Stop Desktop'
   );
+  // Expect document title
+  expect(await page.locator('head > title').innerText()).toContain(
+    'One Stop Desktop'
+  );
 });

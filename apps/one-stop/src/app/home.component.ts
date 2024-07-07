@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
         <a target="" href="http://localhost:4400">Local: Go to Admin</a>
       </li>
       <li>
-        <a target="" href="http://wwww.admin.onestopdesk.top"
+        <a target="" href="http://www.admin.onestopdesk.top"
           >Prod: Go to Admin</a
         >
       </li>

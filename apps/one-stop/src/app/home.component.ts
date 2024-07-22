@@ -16,8 +16,16 @@ import { CommonModule } from '@angular/common';
         <a
           rel="noopener noreferrer"
           target=""
-          href="http://www.admin.onestopdesk.top"
+          href="https://www.admin.onestopdesk.top"
           >Prod: Go to Admin</a
+        >
+      </li>
+      <li>
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://www.tools.onestopdesk.top"
+          >Prod - Only: Go to Dev Tools</a
         >
       </li>
     </ul>`,

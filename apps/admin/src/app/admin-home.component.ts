@@ -13,7 +13,10 @@ import { CommonModule } from '@angular/common';
         >
       </li>
       <li>
-        <a rel="noopener noreferrer" target="" href="http://www.onestopdesk.top"
+        <a
+          rel="noopener noreferrer"
+          target=""
+          href="https://www.onestopdesk.top"
           >Prod: Go to OSD Home</a
         >
       </li>
